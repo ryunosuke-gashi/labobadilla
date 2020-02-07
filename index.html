@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fullpage.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Hind|Dancing+Script|Josefin+Sans|Lato|Open+Sans|Muli" rel="stylesheet">
+    <link rel="stylesheet"  href="css/media.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sheet.css">
+
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js" ></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+      $(function(){
+        $('a[href^=#]').click(function(){
+            var speed = 1000;
+            var href= $(this).attr("href");
+            var target = $(href == "#" || href == "" ? 'html' : href);
+            var position = target.offset().top;
+            $("html, body").animate({scrollTop:position}, speed, "swing");
+            return false;
+        });
+    });
+    
+    </script>
+  
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.min.js"></script>
+    
+    <!-- Title -->
+    <title>Bootstrap Template</title>   
+  </head>
+  <body>
+    <!-- Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav> -->
+
+    <!-- section-1 -->
+    <div class="container-fluid section1">
+      <div class="parallax1" data-parallax="scroll" data-image-src="img/IMG_0075.jpg" data-z-index="1">
+          <div class="row s1-nav">
+              <div class="col-sm-12">
+                   
+                    <nav class="navbar navbar-expand-lg mt-4">
+                        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+
+                              <!-- <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             
+                            </a> -->
+                            
+                            <li class="nav-item">
+                              <a class="nav-link effect-underline text-white" href="#" >HOME</a>
+                            </li>
+                            
+                                <li class="nav-item">
+                                    <a class="nav-link effect-underline text-white " href="#ABOUT" >ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link effect-underline text-white" href="Food Menu.pdf" target="_blank">FOOD</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link effect-underline text-white" href="drink.pdf" target="_blank">DRINK</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link effect-underline text-white" href="#INFORMATION">INFORMATION</a>
+                                </li> 
+                                <li class="nav-item">
+                                    <a class="nav-link effect-underline text-white" href="#RESERVE">RESERVE</a>
+                                </li> 
+                                
+                            </ul>
+                        </div>
+                    </nav>
+              </div>
+          </div>
+          <div class="row s1-context">
+            <div class="col-sm-12 text-center">
+                <h1 class="s7-title text-white">LA Bobadilla</h1>
+            </div>
+            <div class="col-sm-12 text-center">
+               
+            </div>
+            
+          </div>
+      </div> 
+    </div>
+
+    <!-- section-2 -->
+    <!-- <div class="container-fluid section2">
+       <div class="row s2-content">
+         <div class="col-sm-4 text-center">
+           <img class="my-4" src="img/computer-graphic.svg" width="30"/>
+           <h6 class="s2-title">CLEAN DESIGN</h6>
+           <p class="s2-subtitle">gaogaogate</p>
+         </div>
+         <div class="col-sm-4 text-center">
+            <img class="my-4" src="img/gift-box.svg" width="30"/>
+            <h6 class="s2-title">PREMIUM RESOURCES</h6>
+            <p class="s2-subtitle">Professionally repurpose premium rather than magnetic bandwidth.</p>
+          </div>
+          <div class="col-sm-4 text-center">
+            <img class="my-4" src="img/responsive.svg" width="30"/>
+            <h6 class="s2-title">RESPONSIVE LAYOUT</h6>
+            <p class="s2-subtitle">Professionally repurpose premium rather than magnetic bandwidth.</p>
+          </div>
+       </div>
+     </div> -->
+
+    <!-- section-3 -->
+    <div class="container-fluid section3" id="ABOUT">
+      <div class="row">
+        <div class="col-sm-6 s3-content">
+          <div class="row"><h3 class="s3-title">ABOUT</h3></div>
+          <div class="row s3-sub">
+            <p>京成小岩駅からすぐの路地、ひっそり佇むワインバル</p>
+            <p>スペインを中心に世界中のワインを常時200種類以上揃えており、自分の好きな味、雰囲気、一緒に食べたい料理に合わせて一番いいワインをオススメしますので、<br>ワインの知識がなくても楽しむことができます。</p>
+            <p>スペインの裏路地バルの雰囲気を楽しみたい方はぜひ。</p>
+          </div>
+          
+        </div>
+        <div class="col-sm-6 s3-img">
+          <img src="img/IMG_0313.jpg" width="90%"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- section-4 -->
+    <div class="container-fluid section4">
+        <div class="parallax2" data-parallax="scroll" data-image-src="img/ワイン棚.JPG" data-z-index="1">
+            <!-- <div class="row s4-context"><div class="col-sm-12 text-center"><h3 class="s4-title mb-4">GALLERY</h3></div></div> -->
+            <div class="row s4-context">
+              <div class="col-sm-3 text-center s4-img s4-col">
+                <div class="hovereffect">
+                  <img src="img/メニューボード.JPG" height="100%" width="100%"/>
+                  <div class="overlay">
+                      <h2>日替わりメニュー</h2>
+                      <p>
+                        <a>ワインに合う日替わりの料理が用意されています</a>
+                      </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3 text-center s4-img  s4-col">
+                  <div class="hovereffect">
+                      <img src="img/店舗壁掛け.jpg" height="100%" width="100%"/>
+                      <div class="overlay">
+                          <h2>地バル</h2>
+                          <p>
+                            <a>暮らす街への愛着を感じることのできるまるでヨーロッパの路地裏バル</a>
+                          </p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-3 text-center  s4-img  s4-col">
+                  <div class="hovereffect">
+                      <img src="img/IMG_0068.jpeg" height="100%" width="100%"/>
+                      <div class="overlay">
+                          <h2>日曜営業</h2>
+                          <p>
+                            <a>営業時間15:00~20:00なのでお昼過ぎからお酒を楽しみたい方にオススメ</a>
+                          </p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-3 text-center  s4-img s4-col">
+                  <div class="hovereffect">
+                      <img src="img/higashisan_65.png" width="100%"/>
+                      <div class="overlay">
+                          <h2>マスター</h2>
+                          <p>
+                            <a>ワインの知識豊富なソムリエの選ぶワインで素敵なお料理をお楽しみください</a>
+                          </p>
+                      </div>
+                    </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section-5 -->
+    <div class="container-fluid section5">
+      <div class="row">
+          <h3 class="col-sm-12 s6-title mt-5 text-center pb-5">GALLERY</h3>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-3 s5-col">
+            <div class="row"><div class="hovereffect2">
+              <img src="img/IMG_3034.jpg" class="s5-img"/>
+              <div class="overlay2">
+                  <h2>ブラックタイガーエビのロースト</h2>
+                  
+              </div>
+            </div></div>
+            <div class="row"><div class="hovereffect2">
+                <img src="img/IMG_1260.jpeg" class="s5-img"/>
+                <div class="overlay2">
+                    <h2>季節によって変わるワインフェア</h2>
+                    
+                </div>
+              </div></div>          
+        </div>
+        <div class="col-sm-3 s5-col">
+            <div class="row"><div class="hovereffect2">
+                <img src="img/IMG_3030.jpg" class="s5-img"/>
+                <div class="overlay2">
+                    <h2>アンガス牛ハラミのロースト</h2>
+                    
+                </div>
+              </div></div>
+              <div class="row"><div class="hovereffect2">
+                  <img src="img/__.jpeg" class="s5-img"/>
+                  <div class="overlay2">
+                      <h2>200種類以上のワイン</h2>
+                      
+                  </div>
+                </div></div>
+        </div>
+        <div class="col-sm-3 s5-col">
+            <div class="row"><div class="hovereffect2">
+                <img src="img/IMG_0614.jpeg" class="s5-img"/>
+                <div class="overlay2">
+                    <h2>小海老のカクテル</h2>
+                    
+                </div>
+              </div></div>
+              <div class="row"><div class="hovereffect2">
+                  <img src="img/IMG_0991.jpeg" class="s5-img"/>
+                  <div class="overlay2">
+                      <h2>重め軽めもお好みで</h2>
+                      
+                  </div>
+                </div></div>
+        </div>
+        <div class="col-sm-3 s5-col">
+            <div class="row"><div class="hovereffect2">
+                <img src="img/IMG_1132.jpeg" class="s5-img"/>
+                <div class="overlay2">
+                    <h2>エビのアヒージョ</h2>
+                    
+                </div>
+              </div></div>
+              <div class="row"><div class="hovereffect2">
+                  <img src="img/006.JPG" class="s5-img"/>
+                  <div class="overlay2">
+                      <h2>店内の雰囲気</h2>
+                      
+                  </div>
+                </div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section-6 -->
+    <div class="container-fluid section6" style="overflow:hidden" id="INFORMATION">
+      <div class="row">
+         <div class="col-sm-12 text-center s6-title"><h3>INFORMATION</h3></div>
+      </div>
+     
+      <div class="row">
+          <div class="col-sm-12 s6-sub text-left">
+            <p>住所：〒133-0051 東京都江戸川区北小岩6-15-8<br>アクセス：京成小岩駅徒歩1分<br>電話番号：03-6657-9800<br>営業時間：17:30~23:30(日曜:15:00~20:00)<br>定休日：火曜日<br>総席数：カウンター10席　テーブル8席
+
+          </p></div>    
+      </div>
+      <!-- <div class="row">
+          <div class="col-sm-12  text-center s6-footer">
+            
+           
+          </div>
+      </div> -->
+    <div>
+
+    <!-- section-7 -->
+    <div class="container-fluid section7">
+        <div class="parallax3 pb-4 pt-4" data-parallax="scroll"  data-z-index="1">
+          
+          <div class="row s7-content mb-4 mx-1">
+            <div class="col-sm-12 col-md-7 col-lg-6 s7-text">
+              <div>
+                <h1 class="s7-title">MAP</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14530.751535775293!2d139.87217696886034!3d35.74523155471964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601885dab22c34db%3A0xf5140d68c0498414!2z44CSMTMzLTAwNTEg5p2x5Lqs6YO95rGf5oi45bed5Yy65YyX5bCP5bKp77yW5LiB55uu77yR77yV4oiS77yY!5e0!3m2!1sja!2sjp!4v1580797796908!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="RESERVE">
+        <h3 class="col-sm-12 s6-title mt-5 text-center pb-5">Reserve</h3>
+    </div>
+      <div id="formWrapper">
+
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSevDyRGWiLfzbY3Awk6rCipbHMwQzE-Gc4uT99XtsUETs0VfQ/formResponse" method="post" name="myForm" target="dummyIframe">
+          <div class="form-group">
+            <label for="exampleInputNumber">人数</label>
+            <input type="number" name="entry.543749376" class="form-control" id="exampleInputNumber" aria-describedby="emailHelp" placeholder="例)2">
+            <small id="emailHelp" class="form-text text-muted"></small>
+          </div>
+  
+          <div class="form-group">
+            <label for="exampleInputPassword1">予約日時</label>
+            <input type="text" name="entry.1271359611" class="form-control" id="exampleInputPassword1" placeholder="例)01/20,21:00">
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleInputEmail1">氏名</label>
+            <input type="text" name="entry.2117275067" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+            <small id="emailHelp" class="form-text text-muted"></small>
+          </div>
+  
+              <div class="form-group">
+                <label for="exampleInputEmail1">ご予約者様の連絡先</label>
+                <input type="tell" name="entry.899850781"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="例)0312345678">
+                <small id="emailHelp" class="form-text text-muted"></small>
+              </div>
+  
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">ご要望</label>
+            <textarea class="form-control" name="entry.1412668713"id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="button/wrapper text-center pt-4">
+            <button type="submit" class="btn btn-gradation" onclick="sendGform()">予約</button>
+          </div>
+        </form>
+        <iframe name="dummyIframe" style="display:none;"></iframe>
+      </div>
+      <div id="thxMessage" style="display:none;" class="text-center" >Thank you for your reservation</div>
+<script>
+function sendGform(){
+   document.myForm.submit();
+   document.getElementById('formWrapper').style.display = 'none';
+   document.getElementById('thxMessage').style.display = 'block';
+}
+</script>
+    <!-- Footer -->
+    <div class="container-fluid footer">
+      <div class="footer-btn text-right mb-3">
+
+        <a href="#" class="btn-gradation">TOP</a>
+      </div>
+      <div class="row">
+        
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <ul class="footer-list">
+            <li style="list-style:none" class="d-inline mx-2"><i class="fab fa-facebook-f"></i></li>
+            <li style="list-style:none" class="d-inline mx-2"><i class="fab fa-twitter"></i></li>
+            <li style="list-style:none" class="d-inline mx-2"><i class="fab fa-instagram"></i></li>  
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+         
+      </div>
+    </div>      
+  </body>
+</html>

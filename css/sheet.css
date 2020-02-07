@@ -1,0 +1,27 @@
+.navbar-light .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.btn-gradation {
+  display: inline-block;
+  text-align: center;
+  background-image: linear-gradient(#eaeaea 0%, #c6c6c6 100%);
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
+  color: #a5a5a5;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn-gradation:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+.form-group{
+  width: 400px;
+ margin: auto;
+ padding-top: 10px;
+}
