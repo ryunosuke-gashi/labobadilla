@@ -1,6 +1,27 @@
 .navbar-light .navbar-toggler-icon{
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
+@media (min-width:0px) and (max-width:600px){
+
+        .col-sm-12 img{
+        display: none;
+        }
+  
+  .container-fluid{
+    text-align: center;
+  }
+  .col-sm-6.s3-content {
+  padding:100px 30px 100px 30px;
+  }
+  .col-sm-6{
+    display: block;
+  }
+  .col-sm-12.s6-sub{
+  padding:30px;
+    
+  } 
+}
 .btn-gradation {
   display: inline-block;
   text-align: center;
