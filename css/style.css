@@ -2,28 +2,27 @@
     padding: 0px;
 }
 
-.navbar {
- height:32px; 
-}
 
-.parallax1 {
-    min-height: 700px;
-    padding: 200px 50px;
-    background: transparent;
+.section1{
+    height: 800px;
+    background-image: url("../img/IMG_0075.jpg");
     background-size: cover;
-}
-.s1-nav {
-    z-index: 2;
-    position: relative;
-    margin-top: -190px;
-}
+   position: relative;
 
-.navbar {
-    float: right;
 }
-
-.navbar {
-    padding-right: 0px ;
+.section1::before{
+	
+	background-color: rgba(0,0,0,0.5);
+	
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+.s7-title{
+    padding-top: 100px;
 }
 
 .nav-item {
@@ -57,61 +56,6 @@
   opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-}
-
-.dropdown-menu {
-    width: 220px;
-    padding: 4px 15px 4px 20px;
-    font-size: 0.875rem;
-    font-weight: 400;
-    letter-spacing: normal;
-    font-family: Hind, sans-serif;
-    text-align: left;
-}
-
-.s1-context {
-    z-index: 2;
-    position: relative;
-    margin-top: 190px;
-}
-
-.s1-title {
-    font-family: Muli, sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    text-align: center;
-    color: #303030a4;
-    letter-spacing: 10px;
-}
-
-.s1-subtitle {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    margin-top: 35px;
-    margin-bottom: 52px;
-    letter-spacing: 0.7em;
-}
-
-.s1-button {
-    font-family: Hind, sans-serif;
-    font-weight: 600;
-    color: #303030c5;
-    background-color: transparent;
-    border-color: #101010;
-    font-size: 14px;
-    border: 2px solid;
-    letter-spacing: 0.3em;
-    padding: 10px 40px;
-    margin-right: 20px;
-    width: 200px;
-}
-
-.s1-button:focus, .s1-button:hover {
-    color: #fff;
-    background-color: #101010;
-    border-color: #101010;
-    text-decoration: none;
-    transition-duration: 0.8s;
 }
 
 .section2 {
